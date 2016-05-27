@@ -1,0 +1,17 @@
+{
+  "name": "libnonce",
+  "version": "0.0.1",
+  "description": "Nonce Service routing pluggable into any express application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ziyad Parekh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "deepcopy": "^0.6.1",
+    "express": "^4.13.4",
+    "q": "^1.4.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "libpayment",
+  "version": "0.0.1",
+  "description": "Javascript library for validating, verifying and tokenizing financial data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -t 10000 --reporter spec"
+  },
+  "author": "Ziyad Parekh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "card-validator": "^2.2.7",
+    "deepcopy": "^0.6.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "mongodb-runner": "^3.1.15"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
