@@ -1,0 +1,134 @@
+@import './variables';
+
+.nav {
+  height: 50px;
+  background-color: $primary1Color;
+
+  .container {
+    height: 100%;
+  }
+}
+
+.nav-nav {
+  display: table;
+  height: 100%;
+}
+
+.nav-nav-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-nav-item-link {
+  display: inline-block;
+  margin: 10px 30px;
+  color: $textColor;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+
+  &:hover {
+    text-decoration: none;
+  }
+  &.active {
+    color: $alternateTextColor;
+    text-decoration: none;
+  }
+}
+
+.nav-nav-user-link {
+  display: flex;
+  align-items: center;
+  margin: 2px 40px 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+  &.active {
+    .nav-nav-user-link-text {
+      color: $alternateTextColor;
+      border-bottom-color: $alternateTextColor;
+    }
+  }
+}
+
+.nav-nav-user-link-text {
+  display: inline-block;
+  color: $accent2Color;
+  border-bottom: 1px dotted $borderColor;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:hover {
+    border-bottom-color: $canvasColor;
+  }
+
+  .nav-nav-user-link-text {
+    color: $alternateTextColor;
+    border-bottom-color: $canvasColor;
+  }
+}
+
+.nav-logo {
+  display: inline-block;
+  padding: 11px 0px;
+  color: $alternateTextColor;
+  font-size: 20px;
+  float: left;
+}
+
+.nav-user-link {
+  display: flex;
+  align-items: center;
+  color: $alternateTextColor;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .ion-person {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .ion-chevron-down, .ion-chevron-up {
+    margin-left: 6px;
+    color: #6B6B6B;
+    font-size: 10px;
+  }
+}
+
+.nav-user-popover {
+  top: 40px;
+  right: 2px;
+  width: 200px;
+}
+
+.nav-user-popover.popover-content:before {
+  top: -7px ;
+  right: 14px ;
+  border-width: 7px;
+  border-bottom: 7px solid #999;
+}
+
+.nav-user-popover.popover-content:after {
+  top: -6px;
+  right: 14px;
+  border-width: 7px;
+  border-bottom: 7px solid #fff;
+}
+
+.nav-user-popover-list {
+  list-style: none;
+}
+
+.nav-user-popover-item {
+  padding: 10px;
+  font-size: 11px;
+}
+

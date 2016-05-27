@@ -1,0 +1,23 @@
+@import './variables';
+
+.nav-search {
+    position: relative;
+    background-color: $primary3Color;
+    border-radius: 3px;
+
+    i {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: $primary2Color;
+        pointer-events: none;
+    }
+}
+
+input[type="text"].nav-search-input {
+  width: 290px;
+  padding: 6px 10px 6px 30px;
+  color: $alternateTextColor;
+  font-weight: 300;
+  background-color: transparent;
+}

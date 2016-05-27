@@ -1,0 +1,17 @@
+@import '../../../node_modules/card-react/lib/card';
+@import '../Icons/ionicons';
+@import '../components/components';
+
+$white: #ffffff;
+$blue: #0000ff;
+$light-grey: #DDDDDD;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $white;
+  font-size: 14px;
+}
+
+form {
+  margin: 30px;
+}
