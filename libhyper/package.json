@@ -1,0 +1,15 @@
+{
+  "name": "libhyper",
+  "version": "0.0.1",
+  "description": "Library for Hyper browsing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ziyad Parekh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
